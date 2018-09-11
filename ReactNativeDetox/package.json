@@ -28,6 +28,7 @@
         "type": "ios.simulator",
         "name": "iPhone X"
       }
-    }
+    },
+    "test-runner": "jest"
   }
 }
