@@ -1,4 +1,9 @@
 {
-    "setupTestFrameworkScriptFile": "./init.js",
-    "testEnvironment": "node"
+  "setupTestFrameworkScriptFile": "./e2e/init.js",
+  "testEnvironment": "node",
+  "preset": "react-native",
+  "rootDir": "../",
+  "transform": {
+    "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+  }
 }

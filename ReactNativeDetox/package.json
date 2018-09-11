@@ -29,6 +29,7 @@
         "name": "iPhone X"
       }
     },
-    "test-runner": "jest"
+    "test-runner": "jest",
+    "runner-config": "e2e/config.json"
   }
 }
